@@ -1,4 +1,5 @@
+# Modified by aiua-dev on 2026-11-09 from LunarXuan/image-prompt-reverse; GPL-3.0.
 interface:
-  display_name: "图片反推提示词"
-  short_description: "从参考图片反推可直接使用的高还原度中英双语生图提示词"
-  default_prompt: "Use $image-prompt-reverse to analyze my uploaded image and produce a high-fidelity positive prompt and negative prompt."
+  display_name: "图片反推 · GPT Image"
+  short_description: "从参考图提取构图与画风，生成可直接用于 GPT Image 系列的完整中文生图提示词"
+  default_prompt: "使用 $image-prompt-reverse 分析参考图，生成可直接用于 GPT Image 系列的完整中文生图提示词。"
